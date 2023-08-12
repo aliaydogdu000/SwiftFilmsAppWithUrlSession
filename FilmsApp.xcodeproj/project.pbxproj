@@ -13,6 +13,15 @@
 		F41289B8298FA97800443F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41289B6298FA97800443F3E /* Main.storyboard */; };
 		F41289BA298FA97900443F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41289B9298FA97900443F3E /* Assets.xcassets */; };
 		F41289BD298FA97900443F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41289BB298FA97900443F3E /* LaunchScreen.storyboard */; };
+		F41289C5298FAA5D00443F3E /* CategoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289C4298FAA5D00443F3E /* CategoryCellTableViewCell.swift */; };
+		F41289C7298FADEC00443F3E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289C6298FADEC00443F3E /* CollectionViewCell.swift */; };
+		F41289C9298FB04700443F3E /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289C8298FB04700443F3E /* FilmViewController.swift */; };
+		F41289CB298FB05600443F3E /* FimDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289CA298FB05600443F3E /* FimDetailViewController.swift */; };
+		F41289CD298FB21100443F3E /* Kategoriler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289CC298FB21100443F3E /* Kategoriler.swift */; };
+		F41289CF298FB26500443F3E /* Yonetmenler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289CE298FB26500443F3E /* Yonetmenler.swift */; };
+		F41289D1298FB2E200443F3E /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41289D0298FB2E200443F3E /* Filmler.swift */; };
+		F46632042A881A8700C3A27C /* Kategori.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46632032A881A8700C3A27C /* Kategori.swift */; };
+		F46632062A881BA900C3A27C /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46632052A881BA900C3A27C /* Film.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		F41289B9298FA97900443F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F41289BC298FA97900443F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F41289BE298FA97900443F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41289C4298FAA5D00443F3E /* CategoryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTableViewCell.swift; sourceTree = "<group>"; };
+		F41289C6298FADEC00443F3E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F41289C8298FB04700443F3E /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		F41289CA298FB05600443F3E /* FimDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FimDetailViewController.swift; sourceTree = "<group>"; };
+		F41289CC298FB21100443F3E /* Kategoriler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategoriler.swift; sourceTree = "<group>"; };
+		F41289CE298FB26500443F3E /* Yonetmenler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yonetmenler.swift; sourceTree = "<group>"; };
+		F41289D0298FB2E200443F3E /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
+		F46632032A881A8700C3A27C /* Kategori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kategori.swift; sourceTree = "<group>"; };
+		F46632052A881BA900C3A27C /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +76,20 @@
 			children = (
 				F41289B0298FA97800443F3E /* AppDelegate.swift */,
 				F41289B2298FA97800443F3E /* SceneDelegate.swift */,
-				F41289B4298FA97800443F3E /* ViewController.swift */,
 				F41289B6298FA97800443F3E /* Main.storyboard */,
 				F41289B9298FA97900443F3E /* Assets.xcassets */,
 				F41289BB298FA97900443F3E /* LaunchScreen.storyboard */,
 				F41289BE298FA97900443F3E /* Info.plist */,
+				F41289B4298FA97800443F3E /* ViewController.swift */,
+				F41289C4298FAA5D00443F3E /* CategoryCellTableViewCell.swift */,
+				F41289C6298FADEC00443F3E /* CollectionViewCell.swift */,
+				F41289C8298FB04700443F3E /* FilmViewController.swift */,
+				F41289CA298FB05600443F3E /* FimDetailViewController.swift */,
+				F41289CC298FB21100443F3E /* Kategoriler.swift */,
+				F41289CE298FB26500443F3E /* Yonetmenler.swift */,
+				F41289D0298FB2E200443F3E /* Filmler.swift */,
+				F46632032A881A8700C3A27C /* Kategori.swift */,
+				F46632052A881BA900C3A27C /* Film.swift */,
 			);
 			path = FilmsApp;
 			sourceTree = "<group>";
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41289CF298FB26500443F3E /* Yonetmenler.swift in Sources */,
+				F46632062A881BA900C3A27C /* Film.swift in Sources */,
+				F41289C7298FADEC00443F3E /* CollectionViewCell.swift in Sources */,
 				F41289B5298FA97800443F3E /* ViewController.swift in Sources */,
+				F41289D1298FB2E200443F3E /* Filmler.swift in Sources */,
 				F41289B1298FA97800443F3E /* AppDelegate.swift in Sources */,
+				F46632042A881A8700C3A27C /* Kategori.swift in Sources */,
 				F41289B3298FA97800443F3E /* SceneDelegate.swift in Sources */,
+				F41289CB298FB05600443F3E /* FimDetailViewController.swift in Sources */,
+				F41289CD298FB21100443F3E /* Kategoriler.swift in Sources */,
+				F41289C9298FB04700443F3E /* FilmViewController.swift in Sources */,
+				F41289C5298FAA5D00443F3E /* CategoryCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
